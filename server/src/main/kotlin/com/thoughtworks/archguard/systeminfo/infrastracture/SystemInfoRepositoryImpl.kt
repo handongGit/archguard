@@ -68,6 +68,7 @@ class SystemInfoRepositoryImpl : SystemInfoRepository {
                         "branch = :branch, " +
                         "language = :language, " +
                         "code_path = :codePath, " +
+                        "scanned = :scanned, " +
                         "workdir = :workdir " +
                         "where id = :id"
             )
